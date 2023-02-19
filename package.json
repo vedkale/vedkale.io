@@ -6,14 +6,16 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@next/font": "^13.1.6",
+    "clsx": "^1.2.1",
     "eslint-config-next": "^13.1.6",
+    "framer-motion": "^9.0.4",
     "next": "^13.1.7-canary.19",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "swr": "^2.0.3"
   },
   "devDependencies": {
+    "@tailwindcss/typography": "^0.5.9",
     "@types/node": "18.14.0",
     "@types/react": "18.0.28",
     "autoprefixer": "^10.4.13",

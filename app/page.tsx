@@ -1,6 +1,8 @@
-import Image from 'next/image';
-
+import Image from "next/image";
+import Homepage from "../components/homepage";
 
 export default function Page() {
-    return <h1>Hello, Next.js!</h1>;
-  }
+    return (<section>
+        <Homepage />
+    </section>);
+}
