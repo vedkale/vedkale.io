@@ -2,6 +2,7 @@ import "./globals.css";
 import { Inter } from "next/font/google";
 import { Metadata } from "next";
 import Sidebar from "../components/sidebar";
+import { AnalyticsWrapper } from '../components/analytics';
 
 const inter = Inter({
     weight: "400",
@@ -29,6 +30,7 @@ export default function RootLayout({
                 <Sidebar />
                 <main className="">
                     {children}
+                    <AnalyticsWrapper />
                 </main>
             </body>
         </html>
