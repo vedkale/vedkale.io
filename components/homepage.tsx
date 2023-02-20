@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { KaggleIcon } from "./icons";
+import { GitHubIcon, KaggleIcon } from "./icons";
 
 export default function Homepage() {
     return (
@@ -11,11 +11,14 @@ export default function Homepage() {
                     technologies to extend the Azure platform run across the multicloud environment.
                 </p>
                 <div>
-                    <a className="flex items-center gap-2">
+                    <a href="https://kaggle.com/vedkale" className="flex items-center gap-3 text-neutral-500 mt-5 ml-0">
                         <KaggleIcon />
-                        Kaggle Competitions Expert
+                        kaggle Competitions Expert
                     </a>
-                    <p>Kaggle Competitions Expert</p>
+                    <a href="https://kaggle.com/vedkale" className="flex items-center gap-3 text-neutral-500 mt-3 ml-0">
+                        <GitHubIcon />
+                        vedkale
+                    </a>
                 </div>
             </section>
         </>
