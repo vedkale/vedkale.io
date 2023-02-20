@@ -1,9 +1,14 @@
+import { Metadata } from "next";
 import {
     ArrowIcon,
     Envelope,
     GitHubIcon,
     LinkedInIcon,
 } from "../../components/icons";
+
+export const metadata: Metadata = {
+    title: "About",
+};
 
 export default function About() {
     return (

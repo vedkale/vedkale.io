@@ -4,8 +4,11 @@ import img2 from '../../public/images/0726CFE4-57FE-4098-BFFA-660C2BC18890_1_105
 import img3 from '../../public/images/784D5ED3-F08A-4EAE-9830-46FBD9795BB3_1_105_c.jpeg';
 import img4 from '../../public/images/56309A6A-BCBF-4DF9-85FF-0016F45C282D_1_105_c.jpeg';
 import img5 from '../../public/images/DA3C5FA1-4C29-46CF-B40D-7DD2453A6AB9_1_105_c.jpeg';
+import { Metadata } from "next";
  
-
+export const metadata: Metadata = {
+    title: "Photography",
+};
 
 export default function Photography() {
     return (
