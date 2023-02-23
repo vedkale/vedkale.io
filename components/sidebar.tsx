@@ -20,9 +20,9 @@ const navItems = {
     },
     "/photography": {
         name: "Photography",
-        x: 127,
+        x: 130,
         y: 69,
-        w: "115px",
+        w: "117px",
     },
 };
 
@@ -36,10 +36,10 @@ export default function Sidebar() {
                     className="flex flex-row md:flex-col items-start relative overflow-scroll px-4 md:px-0 pb-0 fade md:overflow-auto scroll-pr-6 md:relative"
                     id="nav"
                 >
-                    <div className="flex flex-row md:flex-col space-x-0 pr-10 mb-2 mt-2 md:mt-0">
+                    <div className="flex flex-row md:flex-col space-x-0 pr-10 mb-2 mt-2 md:mt-00">
                         {navItems[pathname] ? (
                             <>
-                                <div>
+                                <div className="hidden md:block">
                                     <motion.div
                                         className="absolute bg-neutral-100 dark:bg-neutral-800 h-[34px] rounded-md z-[-1]"
                                         layoutId="test2"
@@ -50,6 +50,27 @@ export default function Sidebar() {
                                         animate={{
                                             opacity: 1,
                                             y: navItems[pathname].y,
+                                            width: navItems[pathname].w,
+                                        }}
+                                        transition={{
+                                            type: "spring",
+                                            stiffness: 350,
+                                            damping: 30,
+                                        }}
+                                    />
+                                </div>
+
+                                <div className="block md:hidden">
+                                    <motion.div
+                                        className="absolute bg-neutral-100 dark:bg-neutral-800 h-[34px] rounded-md z-[-1]"
+                                        layoutId="test2"
+                                        initial={{
+                                            opacity: 0,
+                                            x: navItems[pathname].x,
+                                        }}
+                                        animate={{
+                                            opacity: 1,
+                                            x: navItems[pathname].x,
                                             width: navItems[pathname].w,
                                         }}
                                         transition={{

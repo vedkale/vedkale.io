@@ -6,16 +6,16 @@ export function KaggleIcon() {
             height="20"
             viewBox="0 0 60 60"
             stroke="#000"
-            stroke-linecap="round"
-            stroke-linejoin="round"
+            strokeLinecap="round"
+            strokeLinejoin="round"
             fill="#fff"
-            fill-rule="evenodd"
+            fillRule="evenodd"
         >
             <path
                 d="M49.7014 63.1211c-.0632.2509-.3141.3763-.7515.3763h-8.3661c-.5028 0-.9381-.2193-1.3154-.6588L25.4539 45.2654l-3.8525 3.665v13.6289c0 .6271-.3141.9402-.9403.9402h-6.4845c-.6271 0-.9402-.3131-.9402-.9402V.4386c0-.625.3131-.9381.9402-.9381h6.4856c.6261 0 .9402.3141.9402.9381v38.2495l16.5402-16.7278c.4385-.4375.877-.6578 1.3155-.6578h8.6474c.3753 0 .6251.1582.7516.4691.1265.3763.0949.6577-.0949.8464L31.2807 39.5314l18.232 22.6495c.2498.2508.3131.5639.1897.9402"
                 stroke="none"
                 fill="#20beff"
-                fill-rule="nonzero"
+                fillRule="nonzero"
             />
         </svg>
     );
@@ -66,13 +66,13 @@ export function Envelope() {
             width="20"
             height="20"
             viewBox="0 0 24 24"
-            stroke-width="1.5"
+            strokeWidth="1.5"
             stroke="currentColor"
             // class="w-6 h-6"
         >
             <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
+                strokeLinecap="round"
+                strokeLinejoin="round"
                 d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75"
             />
         </svg>
@@ -87,13 +87,13 @@ export function ArrowIcon() {
             width="20"
             height="20"
             viewBox="0 0 24 24"
-            stroke-width="1.5"
+            strokeWidth="1.5"
             stroke="currentColor"
             // class="w-6 h-6"
         >
             <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
+                strokeLinecap="round"
+                strokeLinejoin="round"
                 d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25"
             />
         </svg>
